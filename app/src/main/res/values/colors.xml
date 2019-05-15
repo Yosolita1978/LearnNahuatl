@@ -19,7 +19,7 @@
     <color name="colorBackground">#E0E0E0</color>
 
     <!-- Background color for photos -->
-    <color name="colorPhotosBackground">#FFFFFF</color>
+    <color name="colorCardBackground">#FFFFFF</color>
 
     <!-- Background color for the numbers category -->
     <color name="category_numbers">#FFC107</color>

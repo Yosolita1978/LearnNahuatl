@@ -1,6 +1,6 @@
 package co.yosola.nahuatl;
 
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 public class PhrasesActivity extends AppCompatActivity {

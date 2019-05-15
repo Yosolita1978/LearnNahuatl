@@ -1,7 +1,7 @@
 package co.yosola.nahuatl;
 
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
+import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -35,7 +35,7 @@ public class NumbersFragment extends Fragment {
         wordsOfNumbers.add(new Word("Ten", "mahtlactli", R.drawable.number_ten_nahuatl));
 
 
-        WordAdapter adapter = new WordAdapter(getActivity(), wordsOfNumbers, R.color.category_numbers);
+        WordAdapter adapter = new WordAdapter(getActivity(), wordsOfNumbers, R.color.colorCardBackground);
 
         // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
         // There should be a {@link ListView} with the view ID called list, which is declared in the
