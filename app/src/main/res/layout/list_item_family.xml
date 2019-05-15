@@ -9,12 +9,12 @@
 
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/text_container"
-        android:contentDescription="@string/category_numbers"
+        android:contentDescription="@string/category_family"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:strokeColor="@color/category_numbers"
+        app:strokeColor="@color/category_family"
         app:cardCornerRadius="5dp"
-        app:strokeWidth="2dp"
+        app:strokeWidth="5dp"
         app:cardElevation="5dp">
 
         <ImageView
