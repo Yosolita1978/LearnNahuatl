@@ -15,7 +15,6 @@ public class WordAdapter extends ArrayAdapter<Word> {
 
     private int mColorResourceId;
 
-
     public WordAdapter(Context context, ArrayList<Word> word, int colorResourceId) {
         super(context, 0, word);
         mColorResourceId = colorResourceId;
@@ -61,9 +60,6 @@ public class WordAdapter extends ArrayAdapter<Word> {
 
         // Set the background color of the text container View
         textContainer.setBackgroundColor(color);
-
-
-
 
         return listItemView;
     }
