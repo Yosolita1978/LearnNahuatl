@@ -28,9 +28,9 @@
     <color name="category_family">#16AFCA</color>
 
     <!-- Background color for the colors category -->
-    <color name="category_colors">#8800A0</color>
+    <color name="category_colors">#C285CC</color>
 
     <!-- Background color for the phrases category -->
-    <color name="category_phrases">#e8500d</color>
+    <color name="category_phrases">#E4703E</color>
 
 </resources>

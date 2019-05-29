@@ -26,14 +26,14 @@ public class ColorsFragment extends Fragment {
 
         wordsOfColors.add(new Word("Red", "Chichiltic", R.drawable.color_red));
         wordsOfColors.add(new Word("Green", "Xoxoctic", R.drawable.color_green));
-        wordsOfColors.add(new Word("Brown", "Cafentic", R.drawable.color_brown));
+        wordsOfColors.add(new Word("Brown", "Chocolatic", R.drawable.color_brown));
         wordsOfColors.add(new Word("Grey", "Tenextic", R.drawable.color_gray));
-        wordsOfColors.add(new Word("Black", "Yayahuic", R.drawable.color_black));
-        wordsOfColors.add(new Word("White", "Chipahuac", R.drawable.color_white));
+        wordsOfColors.add(new Word("Black", "Titiltic", R.drawable.color_black));
+        wordsOfColors.add(new Word("White", "Iztac", R.drawable.color_white));
         wordsOfColors.add(new Word("Yellow", "Coztic", R.drawable.color_mustard_yellow));
-        wordsOfColors.add(new Word("Blue", "Azultic", R.drawable.color_blue));
+        wordsOfColors.add(new Word("Blue", "Matlaltic", R.drawable.color_blue));
         wordsOfColors.add(new Word("Purple", "Camohtic", R.drawable.color_purple));
-        wordsOfColors.add(new Word("Orange", "Achilcoz", R.drawable.color_orange));
+        wordsOfColors.add(new Word("Orange", "Lalaxtic", R.drawable.color_orange));
 
 
         WordAdapter adapter = new WordAdapter(getActivity(), wordsOfColors, R.color.category_colors);
