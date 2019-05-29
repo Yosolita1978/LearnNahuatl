@@ -9,5 +9,8 @@ public class ColorsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_colors);
+        getSupportFragmentManager().beginTransaction()
+                .replace(R.id.container, new ColorsFragment())
+                .commit();
     }
 }
